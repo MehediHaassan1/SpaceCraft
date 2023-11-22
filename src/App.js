@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
 
 const App = () => {
     return (
-        <div>
-            <h1>Welcome back cheif.</h1>
+        <div className='max-w-7xl mx-auto'>
+            <Navbar></Navbar>
+            <Header></Header>
         </div>
     );
 };
