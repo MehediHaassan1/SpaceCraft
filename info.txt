@@ -1,0 +1,5 @@
+primary_color: #36453B
+secondary_color: #596869
+base_color: #515751
+common_color: #F5F9E9
+unneccessary_color: #C2C1A5
