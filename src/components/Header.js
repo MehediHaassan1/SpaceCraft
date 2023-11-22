@@ -13,7 +13,7 @@ const Header = () => {
                         <p className='pt-2 tracking-wide leading-snug text-brandPrimary'>We will help you to make an elegant <br /> and luxurios interior designed by <br /> professional interior designer.</p>
                     </div>
                 </div>
-                <div className='absolute top-20'>
+                <div className='absolute top-20 z-[-111111]'>
                     <img src="https://i.ibb.co/WxfmFx2/dotted-image.png" alt="dotted_image" />
                 </div>
             </div>
