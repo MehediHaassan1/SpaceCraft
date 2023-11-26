@@ -84,7 +84,7 @@ const Product = () => {
                             <div className='absolute top-12 mt-10'>
                                 <img src={product.image} alt={product.name} className='h-60' />
                             </div>
-                            <div className='absolute -top-4 right-4 w-8 h-8 bg-[#D6C4B8] text-white rounded-full flex justify-center items-center'>
+                            <div className='absolute -top-4 right-4 w-8 h-8 bg-[#D6C4B8] text-white rounded-full flex justify-center items-center cursor-pointer'>
                                 <IoCartOutline className='w-5 h-5' />
                             </div>
                         </div>
