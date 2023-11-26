@@ -6,17 +6,21 @@ import Deals from './components/Deals';
 import About from './components/About';
 import Product from './components/Product';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div>
             <Navbar></Navbar>
-            <Header></Header>
-            <Companies></Companies>
-            <Deals></Deals>
-            <About></About>
-            <Product></Product>
-            <Testimonials></Testimonials>
+            <div className='max-w-7xl mx-auto'>
+                <Header></Header>
+                <Companies></Companies>
+                <Deals></Deals>
+                <About></About>
+                <Product></Product>
+                <Testimonials></Testimonials>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };
